@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js')
+    script(src='/js/script.js' defer)
+  body
+    h1= title
+    p Welcome to #{title}
+    .status
+    .chart
+      canvas(id="myChart")
+    .nav 
+      button.prev Предыдущий день
+      span.date
+      button.next Следующий день
+ 
