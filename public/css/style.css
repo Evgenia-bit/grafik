@@ -6,3 +6,30 @@ body {
 a {
   color: #00B7FF;
 }
+h1 {
+  text-align: center;
+}
+.status {
+  text-align: center;
+}
+#chart {
+  width: 800px;
+  margin: 30px auto;
+}
+.nav {
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  background-color: aquamarine;
+  font-size: 15px;
+  padding: 5px 10px;
+  border:none;
+  cursor: pointer;
+}
+.date {
+  font-weight: bold;
+  font-size: 18px;
+}

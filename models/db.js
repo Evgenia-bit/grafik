@@ -1,7 +1,7 @@
-const nconf = require('nconf'); //подключаем модуль для работы с бд на json
+const nconf = require('nconf'); 
 const path = require('path');
 
-module.exports = function () { //экспортируем бд
+module.exports = function () { 
   return nconf
     .argv()
     .env()

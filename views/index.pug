@@ -7,10 +7,9 @@ html
     script(src='/js/script.js' defer)
   body
     h1= title
-    p Welcome to #{title}
     .status
     .chart
-      canvas(id="myChart")
+      canvas(id="chart")
     .nav 
       button.prev Предыдущий день
       span.date
