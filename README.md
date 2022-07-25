@@ -6,7 +6,8 @@
 
 ### Docker
 ```
-docker-compose up
+docker run viewing_stock_quotes
+docker run -p 3000:3000 viewing_stock_quotes
 ```
 
 ### Обычный
